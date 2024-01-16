@@ -21,9 +21,9 @@ public class RuntimeNetLogic1 : BaseNetLogic
         // Insert code to be executed when the user-defined logic is started
         myModbusClient = new ModbusClient("127.0.0.1",502);
         myModbusClient.Connect();
-        int[] readHoldingRegisters = myModbusClient.ReadHoldingRegisters(0,2);
-        Log.Info(readHoldingRegisters[0].ToString());
-        myTask = new PeriodicTask(MB_Server_Task, 100, LogicObject);
+        int[] readHoldingRegisters = myModbusClient.ReadHoldingRegisters(0,3);
+        //Log.Info(readHoldingRegisters[0].ToString());
+        myTask = new PeriodicTask(MB_Server_Task, 1000, LogicObject);
         myTask.Start();
     }
 
@@ -34,8 +34,10 @@ public class RuntimeNetLogic1 : BaseNetLogic
     }
     private void MB_Server_Task()
     {
-        int[] readHoldingRegisters = myModbusClient.ReadHoldingRegisters(0,2);
-        Log.Info(readHoldingRegisters[0].ToString());
+        int[] readHoldingRegisters = myModbusClient.ReadHoldingRegisters(0,3);
+        //Log.Info(readHoldingRegisters[0].ToString());
         Owner.Get<CircularGauge>("CircularGauge1").Value=readHoldingRegisters[0];
+        Owner.Get<CircularGauge>("CircularGauge2").Value=readHoldingRegisters[1];
+        Owner.Get<CircularGauge>("CircularGauge3").Value=readHoldingRegisters[2];
     }
 }
