@@ -9,18 +9,18 @@ You can see this working in this video
 
 <https://youtu.be/UpRB72bkKkA>
 
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 001](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/3f23e876-2c3b-4fcb-beb5-ec531fce87e4)
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 001](https://github.com/xavierflorensa/Readme_test/assets/55208134/a412e085-528a-43ef-bc89-56d1f3ef068a)
 
 Let’s run the Optix application, and open a Modbus client
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 002](https://github.com/xavierflorensa/Readme_test/assets/55208134/f8f0acd0-f34d-4930-8f93-e2d2e5ffcdc6)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 002](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/6429306d-1f26-4c6c-ad83-918cb30ee4c0)
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 003](https://github.com/xavierflorensa/Readme_test/assets/55208134/69bc3db8-2a8d-4e02-873e-ceaf369af0d9)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 003](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/dea9e7f2-49f4-4f2f-b933-cf1fe72702a1)
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 004](https://github.com/xavierflorensa/Readme_test/assets/55208134/f078b495-cbc4-49f8-9b0f-a6a155e64eaa)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 004](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/15925349-07e3-4b7d-af58-c0d888249a55)
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 005](https://github.com/xavierflorensa/Readme_test/assets/55208134/78ee76e9-da84-425d-96f8-140c8a17a710)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 005](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/eb6dc3a5-6e5b-4938-8797-7229a96d76cf)
 
 
 # <a name="_toc156635101"></a>Native Modbus TCP client with FactoryTalk Optix
@@ -32,19 +32,20 @@ Since FT OPtix has drivers for Modbus, let’s use it to test the above server
 
 Build and application and on Communication drivers add a Modbus driver, and declare three Tags
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 006](https://github.com/xavierflorensa/Readme_test/assets/55208134/586ad1e7-68db-4aad-b338-2c2f9d0e1c30)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 006](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/898f946f-1225-447c-921f-ec2ba19d8273)
 
 Give the right IP address
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 007](https://github.com/xavierflorensa/Readme_test/assets/55208134/e5f9e27a-bf89-4bd1-b1b0-2d947217ea41)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 007](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/7444483c-3c03-4f8d-ad94-1310eaa9a426)
+
 
 Make the corresponding dynamic links between Modbus variables and Values on circular gauges.
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 008](https://github.com/xavierflorensa/Readme_test/assets/55208134/a01cbb51-b9dc-4097-bb1b-3a4babfd3433)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 008](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/930b37fe-93da-4e60-88e9-2684989d3f9b)
 
 Run the server, and start the application to test our client
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 009](https://github.com/xavierflorensa/Readme_test/assets/55208134/1d5966d2-4b57-4098-a6d4-e40b992602be)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 009](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/f5c790c0-a164-486c-83b1-1531f9831aa1)
 
 Here you can find the code
 
@@ -68,11 +69,11 @@ You can see the final result on this video
 
 Copy the two dll from the FTOptix example
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 010](https://github.com/xavierflorensa/Readme_test/assets/55208134/a1586130-bd72-42c7-84db-b247ba4707dc)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 010](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/7d1ffb43-933d-4125-80ca-2cf86d333fef)
 
 And locate anywhere in your new client project
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 011](https://github.com/xavierflorensa/Readme_test/assets/55208134/4e8bf14e-c4eb-4b30-b654-95d88bc7f2c4)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 011](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/9f2fe46a-3f8e-46fb-8ead-c2230bc91a40)
 
 Create a new Runtime Netlogic
 
@@ -94,26 +95,28 @@ You can also do this on VScode, this way
 
 Got to View/Command Pallette/Open NUGetManager UI
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 012](https://github.com/xavierflorensa/Readme_test/assets/55208134/63d65d40-e9df-4b41-bda0-988041a1cc50)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 012](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/95800d64-d80e-40cc-8028-c75d0f7f277c)
 
 Search for ModbusEasy. Install
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 013](https://github.com/xavierflorensa/Readme_test/assets/55208134/17e9dc0a-fc94-4991-a37b-e8f7378e9681)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 013](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/4e65fe84-b627-408a-b8d2-f8311586e4e9)
 
 Then go to Update
 
 Load
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 014](https://github.com/xavierflorensa/Readme_test/assets/55208134/e8547a21-f7f4-4ba6-82ef-960ad1a2482f)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 014](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/fe40e3e6-58fe-4af8-8b65-af638fce6c13)
 
 Then Update
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 015](https://github.com/xavierflorensa/Readme_test/assets/55208134/1e26b293-e155-4d22-92cf-6ba572bbfcae)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 015](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/788317e6-9aee-4e4a-babb-921089e10d9a)
+
 
 
 Install also System.IO.Ports
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 016](https://github.com/xavierflorensa/Readme_test/assets/55208134/264416df-4067-4bef-9f76-20eb52eed4d6)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 016](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/4d5f0af5-9ebb-4b60-ac29-67c730dad0db)
+
 
 Then Load and update
 
@@ -121,7 +124,7 @@ Open the code,
 
 Look at the \*.csproj file
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 017](https://github.com/xavierflorensa/Readme_test/assets/55208134/0b4b08d9-b6ff-4bc5-ab86-dc482e543e9b)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 017](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/803af8e1-2950-4ba6-879c-9dbfe73072c1)
 
 Now add the using directive
 
@@ -162,7 +165,7 @@ Execute the project
 
 Opening a Server, we are connected to the server
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 018](https://github.com/xavierflorensa/Readme_test/assets/55208134/c9c1ba6b-17b4-4bde-9c7a-c724e3c91173)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 018](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/23cadb68-9ec0-4859-b2f6-469fa2e8fb79)
 
 Now let’s read a holding register
 
@@ -174,7 +177,8 @@ int[] readHoldingRegisters = myModbusClient.ReadHoldingRegisters(0,2);
 Log.Info(readHoldingRegisters[0].ToString());
 ```
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 019](https://github.com/xavierflorensa/Readme_test/assets/55208134/f67db4bb-6585-4188-bb08-ef5649ee4193)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 019](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/396683e3-fdd6-49a9-8ac6-aaf01b582305)
+
 
 This is the code
 
@@ -254,13 +258,15 @@ public class RuntimeNetLogic1 : BaseNetLogic
 }
 ```
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 020](https://github.com/xavierflorensa/Readme_test/assets/55208134/bd21b73d-696e-45b2-893a-d821ba38eca5)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 020](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/63abeab1-8055-4089-bb3c-8c375d887e39)
+
 
 But we need a periodic task to update the value
 
 First of all, delete the former Netlogic and create a Netlogic under the Main Window (it will not work with Netlogic on the project level
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 021](https://github.com/xavierflorensa/Readme_test/assets/55208134/dd598bfa-78ac-4fd5-87de-b2066f82752e)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 021](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/46ad58cc-ccac-4675-a6c4-b8ade33499bf)
+
 
 Use this logic and test the project
 
@@ -307,7 +313,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
 }
 ```
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 022](https://github.com/xavierflorensa/Readme_test/assets/55208134/c8bd10a0-e027-4f76-ad50-73c576eba043)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 022](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/5d028f1f-2cf7-4c9b-bfe1-3d7b2317df2c)
 
 Now let’s modify the program to show three values
 
@@ -354,7 +360,8 @@ public class RuntimeNetLogic1 : BaseNetLogic
 }
 ```
 
-![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 023](https://github.com/xavierflorensa/Readme_test/assets/55208134/997d7b83-7bbc-4188-9b08-a5636d7c4b2e)
+![Aspose Words 0fa7330a-1af4-4f6a-8a4f-08e18f25960b 023](https://github.com/xavierflorensa/Optix_EasyModbusTCP_client/assets/55208134/bbdddb4f-6f03-46e1-9f97-5fc4a3a32d6b)
+
 
 
 You have the code here
